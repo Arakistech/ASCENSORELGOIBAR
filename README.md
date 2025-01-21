@@ -51,4 +51,4 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 # Visualización de datos
 
->>>>>>> f103ae94d90806f99a05591d4f62249fde49fa77
+
