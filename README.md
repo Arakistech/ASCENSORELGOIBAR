@@ -5,6 +5,8 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 # Captura de datos 
 
+Localización: https://arakistech.github.io/Castilla/#17.5/43.212646/-2.411455/147.2/61
+
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Acelerometro.jpeg?raw=true" width="800" height="400">
 
 # Comunicación de datos
