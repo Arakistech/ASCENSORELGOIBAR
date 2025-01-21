@@ -1,8 +1,7 @@
 # ASCENSORELGOIBAR
 Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
-<<<<<<< HEAD
-=======
+
 
 # Captura de datos 
 
