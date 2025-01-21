@@ -48,7 +48,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 2.4 Seleccionar JSON y se descarga
 
 # Base de datos
-
+https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 
 # Detección de anomalías
 
