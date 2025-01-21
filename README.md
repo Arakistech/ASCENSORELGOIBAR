@@ -10,7 +10,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Acelerometro.jpeg?raw=true" width="800" height="400">
 
 
-<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/vibraciones.png?raw=true" width="300" height="800">
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/vibraciones.png?raw=true" width="800" height="400">
 
 
 # Comunicación de datos
