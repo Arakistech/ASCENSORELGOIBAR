@@ -63,11 +63,13 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 >> **URL del Google Sheet**: `https://docs.google.com/spreadsheets/d/     > SpreadsheetID <     /edit?gid=0#gid=0`
 
-    1.25 En `Cells` Debes poner la hoja y el rango de Google Sheet. El nombre de la hoja debe ser EXACTO!!
+    1.25 En `Cells` Debes poner la hoja y el rango de Google Sheet.
+         El nombre de la hoja debe ser EXACTO!!
 
 ## 4. Prueba de comunicación entre Node-RED y Google Sheet
 
-    1.26 Al seleccionar en el boton que se encuentra a la izquierda del bloque de `marca tiempo` de Node-RED, enviará un tiempo que se debería registrarse en en el Google Sheet
+    1.26 Al seleccionar en el boton que se encuentra a la izquierda del bloque de `marca tiempo`
+         de Node-RED, enviará un tiempo que se debería registrarse en en el Google Sheet
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Google%20Sheet%20-%20Ascensor.png">
 
