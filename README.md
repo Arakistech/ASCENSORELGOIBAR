@@ -40,20 +40,21 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
     1.16 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 2.0)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/acceso%20a%20correo%20electronico.png">
 
-    1.17 
-
 
 ## 3. Preparar Node-RED
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png">
 
-    2.7 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
+    1.17 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
         > (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
-    2.8 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
-    2.9 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
-    2.10 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
+    1.18 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
+    1.19 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
+    1.20 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
-    2.
+    1.21 
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
+
+>> **URL del Google Sheet**: https://docs.google.com/spreadsheets/d/     > SpreadsheetID <     /edit?gid=0#gid=0
 
 
 
