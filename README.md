@@ -51,11 +51,11 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
     1.19 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
     1.20 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
-    1.21 
+    1.21 En ```creds``` seleccionar el icono del lapiz
+    1.22 Pegar los datos JSON obtenido anteriormente (TODO) - (siguiente imagen)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
 
 >> **URL del Google Sheet**: `https://docs.google.com/spreadsheets/d/     > SpreadsheetID <     /edit?gid=0#gid=0`
-
 
 
 # Base de datos
