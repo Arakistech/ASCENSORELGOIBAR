@@ -36,6 +36,15 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 ## 2. Preparar Node-RED
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png">
 
+    2.1 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
+        - (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
+    2.2 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
+    2.3 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
+    2.4 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
+
+
+
 # Base de datos
 2 Tipos de bases de datos: relacionales y no relacionales. 
   1. Relacionales (EJ SQL): Es necesario que los datos tengan una estructura predeterminada al crear las tablas. En caso de que los datos no cumplan los requisitos no se graban.
