@@ -53,7 +53,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
 
-    1.21 En ```creds``` seleccionar el icono del lapiz
+    1.21 En `creds` seleccionar el icono del lapiz
     1.22 Pegar los datos JSON obtenido anteriormente (TODO) - (siguiente imagen)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
