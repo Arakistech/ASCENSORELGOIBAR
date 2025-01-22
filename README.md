@@ -54,7 +54,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
     1.21 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
 
->> **URL del Google Sheet**: https://docs.google.com/spreadsheets/d/     > SpreadsheetID <     /edit?gid=0#gid=0
+>> **URL del Google Sheet**: *https://docs.google.com/spreadsheets/d/     **SpreadsheetID**     /edit?gid=0#gid=0*
 
 
 
