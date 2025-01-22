@@ -5,7 +5,7 @@ https://www.youtube.com/watch?v=V55AebUq53g
 #include <DHTesp.h>
 
 
-const int DHT_PIN = 15; 
+const int DHT_PIN = 15;
 DHTesp dht;
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";

@@ -74,4 +74,6 @@ https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 
 # Visualización de datos
 
-https://public.tableau.com/views/Iara_16387319222540/MODIFICADOIVAN?:showVizHome=no#1
+- https://public.tableau.com/views/Iara_16387319222540/MODIFICADOIVAN?:showVizHome=no#1
+
+- Análisis Ascensor Ermua: https://haproxy-traffic-splitter/views/AnalisisascensorErmua/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
