@@ -38,7 +38,8 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
     1.15 Crear un google sheet donde quieras.
     1.16 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 2.0)
-    
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/acceso%20a%20correo%20electronico.png" width="800" height="500">
+
     1.17 
 
 
