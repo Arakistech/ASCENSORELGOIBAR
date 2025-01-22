@@ -83,7 +83,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
   Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy especifica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
   1. Primera fila del .csv indica el tipo de dato en esa columna. [time, measurement, field, tag]
-       1.1 Time: marca del tiempo (debe seguir la ISO8601 --> *YYYY-MM-DDTHH:mm:ssZ* ó en segundos totales)
+       1.1 Time: marca del tiempo (debe seguir la ISO8601 --> *YYYY-MM-DDTHH:mm:ssZ* ó en segundos totales desde 1970 denominado UNIX )
        1.2 Measurement: metrica o unidad de la columna.
        1.3 Field: Valores numericos o cadenas.
        1.4 Tag: Categorias.
