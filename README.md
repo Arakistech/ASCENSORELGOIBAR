@@ -33,7 +33,13 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
     2.2 Seleccionar Claves
     2.3 Agregar clave: Crear Clave nueva
     2.4 Seleccionar JSON y se descarga
-## 2. Preparar Node-RED
+
+## 2. Crear Google Sheet y compartir a correo electronico
+
+    2.5 Crear un google sheet donde quieras.
+    2.6 Compartir y dar acceso de editor al correo electronico que sale en credenciales del paso (2.0)
+
+## 3. Preparar Node-RED
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png" width="800" height="500">
 
