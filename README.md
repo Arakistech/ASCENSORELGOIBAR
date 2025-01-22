@@ -34,14 +34,14 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
     2.3 Agregar clave: Crear Clave nueva
     2.4 Seleccionar JSON y se descarga
 ## 2. Preparar Node-RED
-<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png">
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png" width="800" height="400">
 
     2.1 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
         - (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
     2.2 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
     2.3 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
     2.4 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
-<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png" width="800" height="400">
 
 
 
