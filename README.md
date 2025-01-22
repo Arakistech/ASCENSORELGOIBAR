@@ -19,36 +19,40 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 >> **Acceder a Google Cloud**: [Click aquí!](https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0)
 
-    1.1 Seleccionar APIs y servicios
-    1.2 Seleccionar HABILITAR APIS Y SERVICIOS
-    1.3 Busca Google Sheets API y selecciona
-    1.4 Selecciona Habilitar
-    1.5 Seleccionar Credenciales (después de CUOTAS Y LÍMITES DEL SISTEMA)
-    1.6 Seleccionar + CREAR CREDENCIALES
-    1.7 Seleccionar Cuenta de Servicio
-    1.8 Añadir un nombre y seleccionar Crear y continuar
-    1.9 Seleccionar Rol: Editor, continuar y Listo
-    2.0 En la opción de credenciales, mirar cuentas de servicio
-    2.1 Selecionar editar (icono lapiz)
-    2.2 Seleccionar Claves
-    2.3 Agregar clave: Crear Clave nueva
-    2.4 Seleccionar JSON y se descarga
+    1.01 Seleccionar APIs y servicios
+    1.02 Seleccionar HABILITAR APIS Y SERVICIOS
+    1.03 Busca Google Sheets API y selecciona
+    1.04 Selecciona Habilitar
+    1.05 Seleccionar Credenciales (después de CUOTAS Y LÍMITES DEL SISTEMA)
+    1.06 Seleccionar + CREAR CREDENCIALES
+    1.07 Seleccionar Cuenta de Servicio
+    1.08 Añadir un nombre y seleccionar Crear y continuar
+    1.09 Seleccionar Rol: Editor, continuar y Listo
+    1.10 En la opción de credenciales, mirar cuentas de servicio
+    1.11 Selecionar editar (icono lapiz)
+    1.12 Seleccionar Claves
+    1.13 Agregar clave: Crear Clave nueva
+    1.14 Seleccionar JSON y se descarga
 
 ## 2. Crear Google Sheet y compartir a correo electronico
 
-    2.5 Crear un google sheet donde quieras.
-    2.6 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 2.0)
+    1.15 Crear un google sheet donde quieras.
+    1.16 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 2.0)
+    
+    1.17 
+
 
 ## 3. Preparar Node-RED
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png" width="800" height="500">
 
-    2.1 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
-        - (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
-    2.2 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
-    2.3 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
-    2.4 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
+    2.7 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
+        > (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
+    2.8 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
+    2.9 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
+    2.10 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png" width="800" height="500">
+    2.
 
 
 
