@@ -17,7 +17,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 
 ## Crear API de Google Sheet
 
-> **Acceder a Google Cloud**: https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0
+> **Acceder a Google Cloud**: [Click aquí!](https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0)
 
 1.1 Seleccionar APIs y servicios
 
@@ -76,4 +76,4 @@ https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 
 - https://public.tableau.com/views/Iara_16387319222540/MODIFICADOIVAN?:showVizHome=no#1
 
-- Análisis Ascensor Ermua: https://haproxy-traffic-splitter/views/AnalisisascensorErmua/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- Análisis Ascensor Ermua: [Tableu Dashboard](https://haproxy-traffic-splitter/views/AnalisisascensorErmua/Dashboard1?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
