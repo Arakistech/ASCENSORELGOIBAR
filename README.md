@@ -37,7 +37,7 @@ Gemelo Digital Ascensor/escaleras mecánicas Elgoibar
 ## 2. Crear Google Sheet y compartir a correo electronico
 
     2.5 Crear un google sheet donde quieras.
-    2.6 Compartir y dar acceso de editor al correo electronico que sale en credenciales del paso (2.0)
+    2.6 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 2.0)
 
 ## 3. Preparar Node-RED
 
