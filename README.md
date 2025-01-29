@@ -13,9 +13,11 @@ La captura de datos se ha realizado en las proximidades del IMH de Elgoibar. Pul
 
 <a href="https://arakistech.github.io/Castilla/#17.5/43.211867/-2.411639/-124/53"> <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/mapa.jpg?raw=true" alt="Click me!" width="800" height="400" /> </a>
 
+El hardware empleado para la captura de datos está basado en el acelerómetro ICM-42688... (describir)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Acelerometro.jpeg?raw=true" width="800" height="400">
 
+Y una APP móvil para Android que se encarga del registro de los datos. 
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/vibraciones.png?raw=true" width="1000" height="250">
 
