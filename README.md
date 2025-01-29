@@ -7,6 +7,8 @@ Se puede acceder vía en siguiente enlace web: https://imhdynamics.cloud/
 
 
 # Captura de datos 
+
+La captura de datos se ha realizado en las proximidades del IMH de Elgoibar. Pulsando sobre la siguiente imagen se puede acceder al mapa interactivo de la zona.
 <a href="https://arakistech.github.io/Castilla/#17.5/43.211867/-2.411639/-124/53"> <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/mapa.jpg?raw=true" alt="Click me!" width="800" height="400" /> </a>
 
 
