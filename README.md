@@ -3,7 +3,7 @@ Este es el Gemelo Digital de los ascensores/escaleras mecánicas Elgoibar.
 
 Se puede acceder vía en siguiente enlace web: https://imhdynamics.cloud/
 
-<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Ascensor2.gif?raw=true" width="800" height="400">
+<img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Ascensor2.gif?raw=true" width="800" height="480">
 
 
 # Captura de datos 
