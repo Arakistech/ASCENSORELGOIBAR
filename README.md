@@ -7,6 +7,9 @@ Puede solicitar acceso a la plataforma web mediante usuario y clave, poniéndose
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Ascensor2.gif?raw=true" width="800" height="480">
 
+# Principio de funcionamiento del mantenimiento predictivo
+(Explicar)
+
 
 # Captura de datos 
 
