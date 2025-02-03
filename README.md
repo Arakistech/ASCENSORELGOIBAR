@@ -255,23 +255,38 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 
 # Visualización de datos
 
+### Realidad Aumentada
+
+- https://jaealkorta.github.io/Realidad_Aumentada_Escalera/index.html
+
+### Tableu Public
+
 - https://public.tableau.com/views/Iara_16387319222540/MODIFICADOIVAN?:showVizHome=no#1
 
 - Análisis Ascensor Ermua: [Tableu Dashboard](https://public.tableau.com/app/profile/jae.alkorta/viz/AnalisisascensorErmua/Dashboard1?publish=yes)
+
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
 
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
--Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
--
+
+- Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
+
 - Análisis de Ascensor Tiempo de anomalias/elevador/recuento de personas:
--Aquí se muestra una gráfica de los ascensores de Ermua donde se muestra la relación entre el tiempo de anomalías el elevador y el recuento de personas
+
+- Aquí se muestra una gráfica de los ascensores de Ermua donde se muestra la relación entre el tiempo de anomalías el elevador y el recuento de personas
+
 - https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
 
-- ![Escalera - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%201.png)
-- ![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
-- ![Escalera - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%203.png)
-- ![Escalera - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%204.png)
+![Escalera - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%201.png)
+
+![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
+
+![Escalera - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%203.png)
+
+![Escalera - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%204.png)
+
 - Interpretación de los gráficos de la escalera:
+
 1. Aceleración vs Tiempo (Gráfico Izquierdo)
 Se presentan las tres componentes de aceleración (acc_x, acc_y, acc_z) en función del tiempo.
 La señal parece bastante estable, con pequeñas variaciones alrededor de ciertos valores constantes.
