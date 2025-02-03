@@ -282,6 +282,7 @@ Conclusiones y Recomendaciones:
 Filtrado y Análisis Espectral: Aplicar técnicas de filtrado temporal para aislar los eventos de salto de las vibraciones normales operativas permitirá obtener datos más útiles para el mantenimiento del sistema.
 Aislamiento del Sistema: Evaluar la implementación de plataformas antivibración que desacoplen las fuentes externas de perturbación del sistema principal.
 Sensibilidad del Sistema: Considerar la calibración de los sensores para reducir la captación excesiva de vibraciones externas, enfocándose solo en las vibraciones relevantes para el proceso.
+
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/39fef8c4-4fc4-4f10-8419-bc6d68e992eb" />
 
 A continuación, se analizan los datos obtenidos en el analisis de vibraciones de las escaleras automaticas de elgoibar.Viendo el impacto que genera en los distintos ejes X,Z e Y el salto de personas situadas encima de las escaleras.
@@ -299,6 +300,7 @@ Conclusiones y Recomendaciones:
 Filtrado y Análisis Espectral: Aplicar técnicas de filtrado temporal para aislar los eventos de salto de las vibraciones normales operativas permitirá obtener datos más útiles para el mantenimiento del sistema.
 Aislamiento del Sistema: Evaluar la implementación de plataformas antivibración que desacoplen las fuentes externas de perturbación del sistema principal.
 Sensibilidad del Sistema: Considerar la calibración de los sensores para reducir la captación excesiva de vibraciones externas, enfocándose solo en las vibraciones relevantes para el proceso.
+
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
 
 - Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
