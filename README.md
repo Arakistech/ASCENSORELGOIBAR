@@ -151,16 +151,50 @@ https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
 
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
-- Análisis de Ascensor Tiempo de anomalias/elevador/recuento de personas: https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
+-Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
+-
+- Análisis de Ascensor Tiempo de anomalias/elevador/recuento de personas:
+-Aquí se muestra una gráfica de los ascensores de Ermua donde se muestra la relación entre el tiempo de anomalías el elevador y el recuento de personas
+- https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
 
 - ![Escalera - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%201.png)
 - ![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
 - ![Escalera - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%203.png)
 - ![Escalera - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%204.png)
+- Interpretación de los gráficos de la escalera:
+1. Aceleración vs Tiempo (Gráfico Izquierdo)
+Se presentan las tres componentes de aceleración (acc_x, acc_y, acc_z) en función del tiempo.
+La señal parece bastante estable, con pequeñas variaciones alrededor de ciertos valores constantes.
+Esto sugiere que la escalera mecánica no tiene grandes vibraciones ni movimientos bruscos, aunque existen pequeñas oscilaciones.
+La aceleración en cada eje representa el comportamiento del movimiento en la dirección correspondiente. Por ejemplo, si el sensor estaba orientado correctamente, 
+acc_z podría reflejar la gravedad, mientras que acc_x y acc_y representarían movimientos laterales o longitudinales.
+
+2. Transformada Rápida de Fourier (FFT) (Gráfico Central)
+Este gráfico descompone la señal en sus componentes de frecuencia, mostrando qué frecuencias están más presentes en la vibración.
+Se observa un pico claro alrededor de los 7 Hz en el eje acc_z (azul), lo que indica que existe una vibración dominante en esa frecuencia.
+Frecuencias más bajas y distribuidas en acc_x y acc_y pueden estar relacionadas con el movimiento mecánico general de la escalera, mientras que el pico en acc_z podría deberse a la vibración generada por el motor o los mecanismos de soporte.
+3. Densidad Espectral de Potencia (PSD) (Gráfico Derecho)
+Este gráfico muestra cómo la potencia de la señal está distribuida en las diferentes frecuencias.
+La curva roja (acc_x) tiene más energía en las bajas frecuencias, lo cual es común en estructuras mecánicas con oscilaciones de baja frecuencia.
+La curva azul (acc_z) tiene más fluctuaciones y caída de energía a mayores frecuencias, lo que podría indicar la presencia de ruido o vibraciones de alta frecuencia menos persistentes.
+La curva verde (acc_y) sigue una tendencia intermedia, lo que sugiere que la vibración en este eje es menos intensa que en acc_z, pero sigue presente en bajas frecuencias.
 - ![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
 - ![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
 - ![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
 - ![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
+1. Aceleración vs Tiempo (Gráfico Izquierdo)
+Se observa una oscilación muy regular en la aceleración acc_z (azul), lo que indica un movimiento periódico, característico de un ventilador en funcionamiento.
+La amplitud de acc_z es mucho mayor que la de acc_x y acc_y, lo que sugiere que la vibración más fuerte ocurre en la dirección vertical. Esto puede deberse a un desbalanceo en las aspas o el motor. También se aprecian oscilaciones en acc_x y acc_y, aunque de menor magnitud, lo que indica que hay cierta vibración en las direcciones horizontal y lateral, probablemente por las fuerzas aerodinámicas o pequeños desajustes en la estructura.
+
+2. Transformada Rápida de Fourier (FFT) (Gráfico Central)
+Aparece un pico muy marcado cerca de los 5 Hz, lo que indica que esta es la frecuencia principal de vibración del ventilador. Esta frecuencia podría corresponder a la frecuencia de giro del rotor. Si el ventilador tiene 5 Hz como frecuencia dominante, significa que está girando a aproximadamente 300 RPM (revoluciones por minuto), ya que:
+5 Hz×60 s/min=300 RPM
+También se ve un segundo pico cerca de los 10 Hz, que puede ser un armónico, lo que sugiere que hay una resonancia secundaria posiblemente causada por la interacción con la estructura o el soporte del ventilador.
+
+3. Densidad Espectral de Potencia (PSD) (Gráfico Derecho)
+La PSD confirma que la mayor parte de la energía de la vibración se encuentra en 5 Hz, reforzando que esta es la frecuencia fundamental de operación del ventilador.
+La curva azul (acc_z) tiene el mayor valor en esta frecuencia, lo que indica que la vibración más intensa ocurre en la dirección vertical.acc_x y acc_y también tienen picos en la misma frecuencia, pero con menor potencia, lo que sugiere que hay vibraciones en todos los ejes, aunque menos intensas en las direcciones laterales.
+El aumento de la energía en bajas frecuencias podría deberse a pequeñas irregularidades en el motor o el montaje del ventilador.
 
 
 
