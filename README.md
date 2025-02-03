@@ -46,9 +46,9 @@ El análisis de vibraciones en el dominio del tiempo examina cómo varía la amp
 
 ### Características clave del análisis
 
-![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Information%20Provided%20by%20Time-Domain%20Vibration%20Analysis.jpg)
-
 La señal de vibración se representa como una forma de onda, mostrando la amplitud de la vibración en función del tiempo. Esta representación permite identificar patrones y anomalías en el comportamiento vibratorio de la máquina.
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Information%20Provided%20by%20Time-Domain%20Vibration%20Analysis.jpg)
 
 Parámetros importantes
 
