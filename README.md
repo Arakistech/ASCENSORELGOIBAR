@@ -8,13 +8,22 @@ Puede solicitar acceso a la plataforma web mediante usuario y clave, poniéndose
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Ascensor2.gif?raw=true" width="800" height="480">
 
 # Principio de funcionamiento del mantenimiento predictivo
-(Explicar)
+El mantenimiento predictivo es una estrategia avanzada que emplea tecnología y análisis de datos para anticipar y prevenir fallos en equipos y maquinaria, optimizando su rendimiento y vida útil.
+
+Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempos de inactividad al evitar fallos inesperados. En entornos de alta demanda, las organizaciones que aplican mantenimiento predictivo pueden garantizar una producción continua y eficiente, mejorando la disponibilidad de sus recursos y optimizando la operatividad del sistema.
+
+- **Recopilación de datos**: Se obtienen mediciones en tiempo real a través de sensores IoT y dispositivos de monitoreo instalados en los equipos. Por ejemplo Temperatura, Vibraciones, Humedad, Presión y Sonido.
+
+- **Transmisión y almacenamiento**: Los datos recopilados se envían a sistemas de almacenamiento en la nube o bases de datos locales para su posterior procesamiento.
+
+- **Análisis de datos**: Se aplican algoritmos de inteligencia artificial y técnicas de análisis predictivo para identificar patrones y señales que indiquen posibles fallos. 
+
+- **Generación de insights y acción**: A partir del análisis, se generan alertas y recomendaciones que permiten tomar decisiones informadas para el mantenimiento y la optimización del rendimiento de los equipos.
 
 
 # Captura de datos 
 
 La captura de datos se ha realizado en las proximidades del IMH de Elgoibar. Pulsando sobre la siguiente imagen se puede acceder al mapa interactivo de la zona.
-
 
 <a href="https://arakistech.github.io/Castilla/#17.5/43.211867/-2.411639/-124/53"> <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/mapa.jpg?raw=true" alt="Click me!" width="800" height="400" /> </a>
 
