@@ -133,7 +133,7 @@ https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
 
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
--Aquí se muestra la imagen de la ubicación de los 3 ascensores de Ermua 
+-Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
 -
 - Análisis de Ascensor Tiempo de anomalias/elevador/recuento de personas: https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
 
