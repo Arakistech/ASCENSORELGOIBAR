@@ -273,13 +273,21 @@ A continuación, se analizan los datos obtenidos en el analisis de vibraciones d
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/39fef8c4-4fc4-4f10-8419-bc6d68e992eb" />
 
 Gráfico del Eje Z:
+
 -El valor cercano a 100 millones podría estar relacionado con un evento puntual generado por el impacto de una persona o salto brusco.
-Dicha magnitud sugiere que el eje vertical es muy sensible a fuerzas externas. Esta sensibilidad puede ser un factor a evaluar para sistemas que requieran estabilidad en el eje Z.
+
+-Dicha magnitud sugiere que el eje vertical es muy sensible a fuerzas externas. Esta sensibilidad puede ser un factor a evaluar para sistemas que requieran estabilidad en el eje Z.
+
 -Para reducir estos picos, sería recomendable mejorar el aislamiento de la máquina respecto al entorno.
+
 Gráfico del Eje Y:
+
 -La amplitud negativa cercana a -400 mil podría también ser consecuencia de un salto, pero con una menor intensidad en comparación con el eje Z.
+
 -El eje Y tiende a captar vibraciones horizontales, lo que sugiere que el impacto del salto se propagó principalmente en la dirección vertical y parcialmente en la dirección lateral.
+
 Gráfico del Eje X:
+
 -El punto cercano a -1 millón de amplitud indica una vibración importante en el eje longitudinal, posiblemente originada por el desplazamiento del peso durante el salto.
 -Esta respuesta podría sugerir cierta resonancia o flexión del sistema en el eje X.
 
