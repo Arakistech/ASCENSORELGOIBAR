@@ -259,6 +259,7 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 
 - Análisis Ascensor Ermua: [Tableu Dashboard](https://public.tableau.com/app/profile/jae.alkorta/viz/AnalisisascensorErmua/Dashboard1?publish=yes)
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/39fef8c4-4fc4-4f10-8419-bc6d68e992eb" />
 
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
 -Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
