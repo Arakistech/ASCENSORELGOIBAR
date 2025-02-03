@@ -27,44 +27,54 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 ## Análisis de vibraciones
 
+El análisis de vibraciones es una técnica fundamental en el mantenimiento predictivo industrial. Proporciona información crucial sobre el estado y rendimiento de las máquinas, permitiendo detectar problemas antes de que causen fallos graves.
+
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Vibration%20Analysis%20Data%20in%20Detail_.jpg)
 
 ### Principales beneficios del análisis de vibraciones en dominio temporal
+El análisis de vibraciones en el dominio del tiempo examina cómo varía la amplitud de la vibración a lo largo del tiempo. Esta técnica ofrece una visión general del comportamiento vibratorio de la máquina y puede revelar eventos anormales que no siempre son evidentes en otros tipos de análisis.
 
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Time-Domain%20Vibration%20Analysis%20and%20its%20importance.jpg)
 
+### Beneficios clave
 - Detección temprana de fallos
-- Seguridad y confiabilidad operativa
-- Optimización de costos
-- Minimiza paradas no planificadas en procesos productivos
-- Estrategias de mantenimiento
-- Evaluación del rendimiento
+- Mejora de la seguridad operativa
+- Reducción de costos de mantenimiento
+- Minimización de paradas no planificadas
+- Optimización de estrategias de mantenimiento
+- Evaluación precisa del rendimiento de la maquinaria
 
 ### Características clave del análisis
 
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Information%20Provided%20by%20Time-Domain%20Vibration%20Analysis.jpg)
 
-- Representación y características de la señal temporal
-- Análisis del historial temporal
-- Pico, RMS y Factor de Cresta
+La señal de vibración se representa como una forma de onda, mostrando la amplitud de la vibración en función del tiempo. Esta representación permite identificar patrones y anomalías en el comportamiento vibratorio de la máquina.
+
+Parámetros importantes
 
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Peak%2C%20RMS%2C%20and%20Crest%20Factor.jpg)
 
-- Medidas estadísticas en el dominio del tiempo
-- Análisis de forma de onda en el dominio del tiempo
-- Análisis de fatiga y predicción de vida útil
+- **Pico**: Valor máximo de la amplitud de vibración
+- **RMS (Root Mean Square)**: Medida de la energía contenida en la vibración
+- **Factor de Cresta**: Relación entre el valor pico y el RMS, útil para detectar impactos
 
+### Análisis estadístico
+Se utilizan medidas estadísticas como la desviación estándar, la curtosis y la asimetría para caracterizar la distribución de la vibración en el tiempo.
 
+### Análisis en el dominio de la frecuencia
+Complementa el análisis temporal, descomponiendo la señal en sus frecuencias constituyentes. Utiliza la Transformada Rápida de Fourier (FFT) para convertir la señal del dominio del tiempo al dominio de la frecuencia.
+
+### Análisis conjunto tiempo-frecuencia
+Técnicas como Gabor-Wigner-Wavelet permiten analizar cómo varían las frecuencias de vibración a lo largo del tiempo.
 
 ### Sensores y adquisición de datos
-Se destaca la importancia de seleccionar sensores apropiados, como los sensores de vibración industrial NCD, que ofrecen:
+La selección de sensores adecuados es crucial. Los acelerómetros son los más comunes, pero también se utilizan sensores láser de alta velocidad para mediciones sin contacto. Características deseables en los sensores incluyen:
 
-- Alta granularidad de datos
+- Alta resolución de datos
 - Múltiples modos de operación
-- Buena precisión
-- Larga duración de la batería (hasta 10 años)
-- Capacidades inalámbricas para fácil instalación y mantenimiento1
-
+- Precisión elevada
+- Larga duración de la batería
+- Capacidades inalámbricas para facilitar la instalación y el mantenimiento
 
 # Captura de datos 
 
