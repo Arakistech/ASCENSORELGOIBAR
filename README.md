@@ -266,6 +266,7 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 - Análisis Ascensor Ermua: [Tableu Dashboard](https://public.tableau.com/app/profile/jae.alkorta/viz/AnalisisascensorErmua/Dashboard1?publish=yes)
 
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/39fef8c4-4fc4-4f10-8419-bc6d68e992eb" />
 
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
 
@@ -320,6 +321,9 @@ También se ve un segundo pico cerca de los 10 Hz, que puede ser un armónico, l
 La PSD confirma que la mayor parte de la energía de la vibración se encuentra en 5 Hz, reforzando que esta es la frecuencia fundamental de operación del ventilador.
 La curva azul (acc_z) tiene el mayor valor en esta frecuencia, lo que indica que la vibración más intensa ocurre en la dirección vertical.acc_x y acc_y también tienen picos en la misma frecuencia, pero con menor potencia, lo que sugiere que hay vibraciones en todos los ejes, aunque menos intensas en las direcciones laterales.
 El aumento de la energía en bajas frecuencias podría deberse a pequeñas irregularidades en el motor o el montaje del ventilador.
+
+Realidad Aumentada 
+https://aventurero7.github.io/Realidad-Aumentada/index.html
 
 
 
