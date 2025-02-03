@@ -25,6 +25,24 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 ![Dashboard: Análisis, límites y alertas](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/SPC%20gr%C3%A1fico.png)
 
+## Análisis de vibraciones
+
+El análisis de vibraciones en el dominio del tiempo es una herramienta crucial para el mantenimiento predictivo en la industria moderna. Este método permite:
+
+### Análisis de vibraciones en el dominio del tiempo
+
+- **Detección temprana de fallos**: Identifica cambios sutiles en el comportamiento de la maquinaria que pueden indicar problemas potenciales.
+- **Mejora de la seguridad y fiabilidad**: Ayuda a prevenir fallos graves, reduciendo riesgos para el personal y el entorno.
+- **Reducción de costos**: Minimiza el tiempo de inactividad no planificado y los costos de mantenimiento.
+- **Optimización de programas de mantenimiento**: Permite pasar de un mantenimiento reactivo a uno basado en la condición real del equipo.
+
+### Características clave del análisis
+El análisis de vibraciones en el dominio del tiempo implica:
+
+- **Representación de la señal temporal**: Muestra la amplitud de la vibración en función del tiempo.
+- **Análisis del historial temporal**: Examina la forma de onda para identificar características como respuesta transitoria y resonancia.
+- **Medidas estadísticas**: Incluye valores pico, RMS y factor de cresta para cuantificar la intensidad de la vibración.
+
 # Captura de datos 
 
 La captura de datos se ha realizado en las proximidades del IMH de Elgoibar. Pulsando sobre la siguiente imagen se puede acceder al mapa interactivo de la zona.
