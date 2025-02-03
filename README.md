@@ -23,6 +23,7 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 - **Generación de insights y acción**: A partir del análisis, se generan alertas y recomendaciones que permiten tomar decisiones informadas para el mantenimiento y la optimización del rendimiento de los equipos.
 
+![Dashboard: Análisis, límites y alertas](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/SPC%20gr%C3%A1fico.png)
 
 # Captura de datos 
 
