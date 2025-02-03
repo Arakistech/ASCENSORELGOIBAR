@@ -266,8 +266,36 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 - Análisis Ascensor Ermua: [Tableu Dashboard](https://public.tableau.com/app/profile/jae.alkorta/viz/AnalisisascensorErmua/Dashboard1?publish=yes)
 
 - Análisis Escaleraa Elgoibar: [Tableu Dashboard](poner link nico)
+Gráfico del Eje Z:
+El valor cercano a 100 millones podría estar relacionado con un evento puntual generado por el impacto de una persona o salto brusco.
+Dicha magnitud sugiere que el eje vertical es muy sensible a fuerzas externas. Esta sensibilidad puede ser un factor a evaluar para sistemas que requieran estabilidad en el eje Z.
+Para reducir estos picos, sería recomendable mejorar el aislamiento de la máquina respecto al entorno.
+Gráfico del Eje Y:
+La amplitud negativa cercana a -400 mil podría también ser consecuencia de un salto, pero con una menor intensidad en comparación con el eje Z.
+El eje Y tiende a captar vibraciones horizontales, lo que sugiere que el impacto del salto se propagó principalmente en la dirección vertical y parcialmente en la dirección lateral.
+Gráfico del Eje X:
+El punto cercano a -1 millón de amplitud indica una vibración importante en el eje longitudinal, posiblemente originada por el desplazamiento del peso durante el salto.
+Esta respuesta podría sugerir cierta resonancia o flexión del sistema en el eje X.
+Conclusiones y Recomendaciones:
+Filtrado y Análisis Espectral: Aplicar técnicas de filtrado temporal para aislar los eventos de salto de las vibraciones normales operativas permitirá obtener datos más útiles para el mantenimiento del sistema.
+Aislamiento del Sistema: Evaluar la implementación de plataformas antivibración que desacoplen las fuentes externas de perturbación del sistema principal.
+Sensibilidad del Sistema: Considerar la calibración de los sensores para reducir la captación excesiva de vibraciones externas, enfocándose solo en las vibraciones relevantes para el proceso.
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/39fef8c4-4fc4-4f10-8419-bc6d68e992eb" />
-
+A continuación, se analizan los datos obtenidos en el analisis de vibraciones de las escaleras automaticas de elgoibar.Viendo el impacto que genera en los distintos ejes X,Z e Y el salto de personas situadas encima de las escaleras.
+Gráfico del Eje Z:
+El valor cercano a 100 millones podría estar relacionado con un evento puntual generado por el impacto de una persona o salto brusco.
+Dicha magnitud sugiere que el eje vertical es muy sensible a fuerzas externas. Esta sensibilidad puede ser un factor a evaluar para sistemas que requieran estabilidad en el eje Z.
+Para reducir estos picos, sería recomendable mejorar el aislamiento de la máquina respecto al entorno.
+Gráfico del Eje Y:
+La amplitud negativa cercana a -400 mil podría también ser consecuencia de un salto, pero con una menor intensidad en comparación con el eje Z.
+El eje Y tiende a captar vibraciones horizontales, lo que sugiere que el impacto del salto se propagó principalmente en la dirección vertical y parcialmente en la dirección lateral.
+Gráfico del Eje X:
+El punto cercano a -1 millón de amplitud indica una vibración importante en el eje longitudinal, posiblemente originada por el desplazamiento del peso durante el salto.
+Esta respuesta podría sugerir cierta resonancia o flexión del sistema en el eje X.
+Conclusiones y Recomendaciones:
+Filtrado y Análisis Espectral: Aplicar técnicas de filtrado temporal para aislar los eventos de salto de las vibraciones normales operativas permitirá obtener datos más útiles para el mantenimiento del sistema.
+Aislamiento del Sistema: Evaluar la implementación de plataformas antivibración que desacoplen las fuentes externas de perturbación del sistema principal.
+Sensibilidad del Sistema: Considerar la calibración de los sensores para reducir la captación excesiva de vibraciones externas, enfocándose solo en las vibraciones relevantes para el proceso.
 - Otro tipo de visualización https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/Ascensores_prueba/Hoja1?publish=yes
 
 - Aquí se muestra las imágenes de las ubicación de los 3 ascensores de Ermua 
