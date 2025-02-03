@@ -139,10 +139,28 @@ https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 - ![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
 - ![Escalera - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%203.png)
 - ![Escalera - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%204.png)
+- Interpretación de los gráficos de la escalera:
+1. Aceleración vs Tiempo (Gráfico Izquierdo)
+Se presentan las tres componentes de aceleración (acc_x, acc_y, acc_z) en función del tiempo.
+La señal parece bastante estable, con pequeñas variaciones alrededor de ciertos valores constantes.
+Esto sugiere que la escalera mecánica no tiene grandes vibraciones ni movimientos bruscos, aunque existen pequeñas oscilaciones.
+La aceleración en cada eje representa el comportamiento del movimiento en la dirección correspondiente. Por ejemplo, si el sensor estaba orientado correctamente, 
+acc_z podría reflejar la gravedad, mientras que acc_x y acc_y representarían movimientos laterales o longitudinales.
+
+2. Transformada Rápida de Fourier (FFT) (Gráfico Central)
+Este gráfico descompone la señal en sus componentes de frecuencia, mostrando qué frecuencias están más presentes en la vibración.
+Se observa un pico claro alrededor de los 7 Hz en el eje acc_z (azul), lo que indica que existe una vibración dominante en esa frecuencia.
+Frecuencias más bajas y distribuidas en acc_x y acc_y pueden estar relacionadas con el movimiento mecánico general de la escalera, mientras que el pico en acc_z podría deberse a la vibración generada por el motor o los mecanismos de soporte.
+3. Densidad Espectral de Potencia (PSD) (Gráfico Derecho)
+Este gráfico muestra cómo la potencia de la señal está distribuida en las diferentes frecuencias.
+La curva roja (acc_x) tiene más energía en las bajas frecuencias, lo cual es común en estructuras mecánicas con oscilaciones de baja frecuencia.
+La curva azul (acc_z) tiene más fluctuaciones y caída de energía a mayores frecuencias, lo que podría indicar la presencia de ruido o vibraciones de alta frecuencia menos persistentes.
+La curva verde (acc_y) sigue una tendencia intermedia, lo que sugiere que la vibración en este eje es menos intensa que en acc_z, pero sigue presente en bajas frecuencias.
 - ![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
 - ![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
 - ![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
 - ![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
+
 
 
 
