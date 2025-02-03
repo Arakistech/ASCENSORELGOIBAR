@@ -27,21 +27,36 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 ## Análisis de vibraciones
 
-El análisis de vibraciones en el dominio del tiempo es una herramienta crucial para el mantenimiento predictivo en la industria moderna. Este método permite:
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Vibration%20Analysis%20Data%20in%20Detail_.jpg)
 
-### Análisis de vibraciones en el dominio del tiempo
-
-- **Detección temprana de fallos**: Identifica cambios sutiles en el comportamiento de la maquinaria que pueden indicar problemas potenciales.
-- **Mejora de la seguridad y fiabilidad**: Ayuda a prevenir fallos graves, reduciendo riesgos para el personal y el entorno.
-- **Reducción de costos**: Minimiza el tiempo de inactividad no planificado y los costos de mantenimiento.
-- **Optimización de programas de mantenimiento**: Permite pasar de un mantenimiento reactivo a uno basado en la condición real del equipo.
+### Principales beneficios del análisis de vibraciones en dominio temporal
+- Detección temprana de fallos
+- Seguridad y confiabilidad operativa
+- Optimización de costos
+- Minimiza paradas no planificadas en procesos productivos
+- Estrategias de mantenimiento
+- Evaluación del rendimiento
 
 ### Características clave del análisis
-El análisis de vibraciones en el dominio del tiempo implica:
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Information%20Provided%20by%20Time-Domain%20Vibration%20Analysis.jpg)
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Peak%2C%20RMS%2C%20and%20Crest%20Factor.jpg)
 
 - **Representación de la señal temporal**: Muestra la amplitud de la vibración en función del tiempo.
 - **Análisis del historial temporal**: Examina la forma de onda para identificar características como respuesta transitoria y resonancia.
 - **Medidas estadísticas**: Incluye valores pico, RMS y factor de cresta para cuantificar la intensidad de la vibración.
+
+
+### Sensores y adquisición de datos
+Se destaca la importancia de seleccionar sensores apropiados, como los sensores de vibración industrial NCD, que ofrecen:
+
+- Alta granularidad de datos
+- Múltiples modos de operación
+- Buena precisión
+- Larga duración de la batería (hasta 10 años)
+- Capacidades inalámbricas para fácil instalación y mantenimiento1
+
 
 # Captura de datos 
 
