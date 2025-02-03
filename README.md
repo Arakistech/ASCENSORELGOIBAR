@@ -16,6 +16,9 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 - **Transmisión y almacenamiento**: Los datos recopilados se envían a sistemas de almacenamiento en la nube o bases de datos locales para su posterior procesamiento.
 
+![Diagrama básico con sistema SCADA](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Sistema%20SCADA.png)
+
+
 - **Análisis de datos**: Se aplican algoritmos de inteligencia artificial y técnicas de análisis predictivo para identificar patrones y señales que indiquen posibles fallos. 
 
 - **Generación de insights y acción**: A partir del análisis, se generan alertas y recomendaciones que permiten tomar decisiones informadas para el mantenimiento y la optimización del rendimiento de los equipos.
