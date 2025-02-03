@@ -30,6 +30,9 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Vibration%20Analysis%20Data%20in%20Detail_.jpg)
 
 ### Principales beneficios del análisis de vibraciones en dominio temporal
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Time-Domain%20Vibration%20Analysis%20and%20its%20importance.jpg)
+
 - Detección temprana de fallos
 - Seguridad y confiabilidad operativa
 - Optimización de costos
@@ -41,11 +44,16 @@ Esta práctica es fundamental para las empresas, ya que minimiza costos y tiempo
 
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Information%20Provided%20by%20Time-Domain%20Vibration%20Analysis.jpg)
 
+- Representación y características de la señal temporal
+- Análisis del historial temporal
+- Pico, RMS y Factor de Cresta
+
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Peak%2C%20RMS%2C%20and%20Crest%20Factor.jpg)
 
-- **Representación de la señal temporal**: Muestra la amplitud de la vibración en función del tiempo.
-- **Análisis del historial temporal**: Examina la forma de onda para identificar características como respuesta transitoria y resonancia.
-- **Medidas estadísticas**: Incluye valores pico, RMS y factor de cresta para cuantificar la intensidad de la vibración.
+- Medidas estadísticas en el dominio del tiempo
+- Análisis de forma de onda en el dominio del tiempo
+- Análisis de fatiga y predicción de vida útil
+
 
 
 ### Sensores y adquisición de datos
