@@ -252,6 +252,15 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 
 # Detección de anomalías
 
+Para la detección de anomalias se usa Edge Impulse.
+
+Los datos usados se encuentran en la carpeta Edge Impulse:
+## Clasificar tipos de vibraciones
+
+
+
+## Contar cantidad de personas y si es mujer u hombre
+
 
 # Visualización de datos
 
