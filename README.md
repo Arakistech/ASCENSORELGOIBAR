@@ -254,6 +254,17 @@ En el caso especifico de los datos de vibraciones, el time está en segundos con
 
 Para la detección de anomalias se usa Edge Impulse.
 
+Después de la creación del proyecto:
+
+1. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Conectar%20dispositivo.png)
+2. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/escanear%20con%20el%20movil.png)
+3. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/registrar%20datos.png)
+4. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Crear%20impulse.png)
+5. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/usando%20el%20modelo%20entrenarlo.png)
+6. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/usando%20el%20modelo%20entrenarlo%202.png)
+7. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Reentrenar.png)
+8. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/ponerlo%20a%20prueba%20con%20una%20nueva.png)
+
 Los datos usados se encuentran en la carpeta Edge Impulse:
 ## Clasificar tipos de vibraciones
 
