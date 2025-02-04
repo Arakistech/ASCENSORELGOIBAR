@@ -271,7 +271,9 @@ Los datos usados se encuentran en la carpeta Edge Impulse:
 
 
 ## Contar cantidad de personas y si es mujer u hombre
-
+1. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-46-58%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
+2. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-25%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
+3. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-33%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
 
 # Visualización de datos
 
