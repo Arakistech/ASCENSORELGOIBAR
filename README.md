@@ -357,6 +357,8 @@ Para testear el entrenamiento ten el móvil activo y conectado. En el paso 8 ele
 
 ## Clasificar tipos de vibraciones
 
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Accuracy%20-%20vibraci%C3%B3n.png)
+
 Gráfico en RAW:
 
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Vibraci%C3%B3n/data%20raw.png)
@@ -372,6 +374,9 @@ Clasificación en formato tabla:
 En esta última imagen se puede ver que ha acertado en la clasificación del tipo de ruido que es el `X`.
 
 ## Contar cantidad de personas y si es mujer u hombre
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Accuracy%20-%20FOMO.png)
+
 1. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-46-58%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
 2. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-25%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)         ---------------         ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-33%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
 
