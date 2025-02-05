@@ -517,6 +517,18 @@ El aumento de la energía en bajas frecuencias podría deberse a pequeñas irreg
 # MongoDB
 MongoDB es una base de datos NoSQL orientada a documentos que permite almacenar y gestionar datos de manera flexible. En el contexto de los ensayos realizados en ventiladores y escaleras mecánicas, MongoDB facilita el almacenamiento de los gráficos generados. Imaginemos q tenemos guardados los graficos en una base de datos de este tipo, esto permite realizar consultas específicas, como recuperar la imagen o gráfico del ensayo q hemos creado, facilitando la visualización y análisis de los resultados de los ensayos.
 
+EJEMPLO DE CASO:
+Como anteriormente mencionado, imaginemos que tenemos los 6 gráficos guardados en una base de datos NoSQL, para poder visualizar los resultados de los ensayos cuando lo solicitemos. Para ello, habría que hacer una consulta en MongoDb, en el idioma json, de esta manera;
+```json
+{
+  "_id": ObjectId("65c09f8e123456789abcd001"),
+  "equipo": "ventilador",
+  "ensayo": 1,
+  "fecha": "2025-02-05",
+  "imagen": BinData(0, "BASE64_O_BYTES_DE_LA_IMAGEN")
+}
+db.imagenes.findOne({ "equipo": "escaleras", "ensayo": 2 });
+```
 
 
 
