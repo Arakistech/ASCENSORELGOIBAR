@@ -357,7 +357,13 @@ Para testear el entrenamiento ten el móvil activo y conectado. En el paso 8 ele
 
 ## Clasificar tipos de vibraciones
 
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Vibraci%C3%B3n/data%20raw.png)
 
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Vibraci%C3%B3n/clasificaci%C3%B3n.png)
+
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Vibraci%C3%B3n/Resultado%20total%20de%20la%20muestra%201.png)
+
+En esta última imagen se puede ver que ha acertado en la calisifcación del tipo de ruido que es el `X`.
 
 ## Contar cantidad de personas y si es mujer u hombre
 1. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-46-58%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
@@ -372,13 +378,6 @@ Acierta en la cantidad de personas pero no detecta bien si es mujer u hombre. A�
 - https://jaealkorta.github.io/Realidad_Aumentada/
 - https://aitorruizp.github.io/3D-Scalator/index.html
 - https://aventurero7.github.io/Realidad-Aumentada/index.html
-
-
-### Qucs Software
-
-> Software: KiCAD o Qucs
-> 
-![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Circuito%20Electrico/Circuito%20Electrico%20simple.png)
 
 ### Tableu Public
 
@@ -580,5 +579,8 @@ Para aprender más acerca de esta base de datos, se puede entender y practicar d
 https://learn.mongodb.com/
 
 
+# Qucs Software
 
-
+> Software: KiCAD o Qucs
+> 
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Circuito%20Electrico/Circuito%20Electrico%20simple.png)
