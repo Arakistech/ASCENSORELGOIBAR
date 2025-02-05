@@ -222,7 +222,8 @@ Primeramente, se ha creado un bucket:
 Tras la creación del bucket se ha seleccionado el tipo de archivo a cargar: 
   ![](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2015_04_39-Buckets%20_%20Load%20Data%20_%20admin%20_%20InfluxDB.png)
 
-  Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy específica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
+Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy específica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
+
   1. Primera fila del .csv indica el tipo de dato en esa columna. [time, measurement, field, tag]
        1.1 Time: marca del tiempo (debe seguir la ISO8601 --> *YYYY-MM-DDTHH:mm:ssZ* ó en segundos totales desde 1970 denominado UNIX )
        1.2 Measurement: metrica o unidad de la columna.
