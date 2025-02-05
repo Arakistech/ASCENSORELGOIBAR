@@ -371,7 +371,7 @@ Sensibilidad del Sistema: Considerar la calibración de los sensores para reduci
 - Aquí se muestra una gráfica de los ascensores de Ermua donde se muestra la relación entre el tiempo de anomalías el elevador y el recuento de personas
 
 - https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
-
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -451,7 +451,7 @@ plt.suptitle('Escalera - Prueba 2', fontsize=16, fontweight='bold')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
 plt.show()
-
+```
 ![Escalera - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%201.png)
 
 ![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
