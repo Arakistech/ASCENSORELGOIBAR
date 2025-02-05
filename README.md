@@ -128,7 +128,9 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 ## 2. Crear Google Sheet y compartir a correo electronico
 
 2.01 Crear un google sheet donde quieras.
+
 2.02 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 1.10)
+
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/acceso%20a%20correo%20electronico.png">
 
 ## 3. Preparar Node-RED
@@ -139,17 +141,21 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 > (tres lineas juntos) / administrar paleta / (al lado del nodo seleccionar instalar)
 
 3.02 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
+
 3.03 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
+
 3.04 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
 
 3.05 En `creds` seleccionar el icono del lapiz
+
 3.06 Pegar los datos JSON obtenido anteriormente (TODO) - (siguiente imagen)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
 
 3.07 En `Method` elegir Append Row
+
 3.08 En `SpreadsheetID` Pegar el ID que se encuentra en el enlace (URL) de Google Sheet
 
 [ **URL del Google Sheet**: `https://docs.google.com/spreadsheets/d/`**SpreadsheetID**`/edit?gid=0#gid=0` ]
@@ -166,7 +172,7 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 # Base de datos
 2 Tipos de bases de datos: relacionales y no relacionales. 
   1. Relacionales (EJ SQL): Es necesario que los datos tengan una estructura predeterminada al crear las tablas. En caso de que los datos no cumplan los requisitos no se graban.
-  2. No relacionales (EJ MongoDB): No es necesario que tengan una estructura definida. Usada cuando no esta clara la     relacion de los datos a almacenar.
+  2. No relacionales (EJ MongoDB): No es necesario que tengan una estructura definida. Usada cuando no esta clara la relacion de los datos a almacenar.
 
  Cargas de datos en SQL: 
 
