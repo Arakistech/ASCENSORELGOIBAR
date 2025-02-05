@@ -257,7 +257,13 @@ Para la detección de anomalias se usa Edge Impulse.
 Después de la creación del proyecto:
 
 1. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Conectar%20dispositivo.png)
+
+Conectar un dispositivo para la recogida de los datos o testear proyecto final. El dispositivo puede ser el mismo móvil u otros aparatos como los sensores.
+
 2. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/escanear%20con%20el%20movil.png)
+
+En caso de querer usar el móvil, escanear el QR. Después de que este conectado seguir los pasos que se muestran en las siguientes imagenes.
+
 3. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/registrar%20datos.png)
 4. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Crear%20impulse.png)
 5. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/usando%20el%20modelo%20entrenarlo.png)
