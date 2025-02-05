@@ -181,41 +181,48 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 
 ### Cargas de datos en SQL: 
 
-        1. Creación de las tablas y estructuras DDL (Data Definition Language): 
-             En primera instancia se deben crear las estructuras y las tablas que serviran de base a los registros. 
-             - CREATE --> Para crear tablas o vistas.
-             - ALTER --> Para modificar la estructura ej. cambiar o añadir una columna.
-             - DROP --> Para borrar algun objeto de la estructura.
-        2. Tareas de modificacion y consultas DML (Data Management LAnguage): 
-            - SELECT--> realizar consulta 
-            - FROM --> elegir la tabla en la cual se hace la tarea
-            - INSERT--> insertar valores
-            - DELETE --> eliminar filas
+1. Creación de las tablas y estructuras DDL (Data Definition Language): 
+En primera instancia se deben crear las estructuras y las tablas que serviran de base a los registros.
+
+- CREATE --> Para crear tablas o vistas.
+- ALTER --> Para modificar la estructura ej. cambiar o añadir una columna.
+- DROP --> Para borrar algun objeto de la estructura.
+  
+2. Tareas de modificacion y consultas DML (Data Management LAnguage):
+  
+- SELECT--> realizar consulta 
+- FROM --> elegir la tabla en la cual se hace la tarea
+- INSERT--> insertar valores
+- DELETE --> eliminar filas
+
 ![IMAGE NOT FOUND](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2014_26_45-SQLQuery2.sql%20-%20sqlserverprod2.database.windows.net.IoTRulesDB%20(analytics_sqlser.png )
 
 ### Cargas de datos en NOSQL:
+Las Bases de datos NOSQL si tienen la viabilidad de comunicar mediante Phyton. Cada una tienen diferentes formas de comunicación. 
+Primeramente, se enumeran los tipos de BBDD NOSQL que existen: 
 
-        Las Bases de datos NOSQL si tienen la viabilidad de comunicar mediante Phyton. Cada una tienen diferentes formas de comunicación. 
-        Primeramente, se enumeran los tipos de BBDD NOSQL que existen: 
+- Bases de datos NOSQL--> Clave-error. 
+- Bases de datos NOSQL--> Documentos. 
+- Bases de datos NOSQL--> Grafos. 
+- Bases de datos NOSQL--> Basadas en objetos. 
 
-        - Bases de datos NOSQL--> Clave-error. 
-        - Bases de datos NOSQL--> Documentos. 
-        - Bases de datos NOSQL--> Grafos. 
-        - Bases de datos NOSQL--> Basadas en objetos. 
+Ejemplos de Bases de datos NOSQL: 
 
-        Ejemplos de Bases de datos NOSQL: 
-        1. Clave-error (EJ. Cassandra):  En este tipo de sistema, cada elemento está identificado por una llave única, lo que permite la recuperación de la información de forma muy rápida
-        2. Documentales (EJ. MongoDB): Este tipo almacena la información como un documento, generalmente utilizando para ello una estructura simple como JSON o XML. 
-        3. Grafos (EJ. Neo4j): La información se representa como nodos de un grafo. 
-        4. Objetos (EJ. Zope):  La información se representa mediante objetos. 
+1. Clave-error (EJ. Cassandra):  En este tipo de sistema, cada elemento está identificado por una llave única, lo que permite la recuperación de la información de forma muy rápida
+   
+3. Documentales (EJ. MongoDB): Este tipo almacena la información como un documento, generalmente utilizando para ello una estructura simple como JSON o XML.
+   
+3. Grafos (EJ. Neo4j): La información se representa como nodos de un grafo.
+
+5. Objetos (EJ. Zope):  La información se representa mediante objetos. 
 
 Ejemplos de lenguajes usados para la comunicacion en BBDD NOSQL: 
 
-        - Cassandra: CQL (Cassandra Query Language)
-        - MongoDB: utiliza un sistema propio de documento conocido con el nombre BSON, que es una evolución del conocido JSON. 
+- Cassandra: CQL (Cassandra Query Language)
+- MongoDB: utiliza un sistema propio de documento conocido con el nombre BSON, que es una evolución del conocido JSON. 
 
 
-  Añadir datos a la base de datos de las escaleras mecanicas a influxDB (base de datos especializada en Series temporales):
+Añadir datos a la base de datos de las escaleras mecanicas a influxDB (base de datos especializada en Series temporales):
 
 Primeramente, se ha creado un bucket: 
 ![](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2015_05_45-Buckets%20_%20Load%20Data%20_%20admin%20_%20InfluxDB.png)
@@ -224,15 +231,19 @@ Tras la creación del bucket se ha seleccionado el tipo de archivo a cargar:
 
 Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy específica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
 
-  1. Primera fila del .csv indica el tipo de dato en esa columna. [time, measurement, field, tag]
+1. Primera fila del .csv indica el tipo de dato en esa columna. [time, measurement, field, tag]
        1.1 Time: marca del tiempo (debe seguir la ISO8601 --> *YYYY-MM-DDTHH:mm:ssZ* ó en segundos totales desde 1970 denominado UNIX )
        1.2 Measurement: metrica o unidad de la columna.
        1.3 Field: Valores numericos o cadenas.
        1.4 Tag: Categorias.
-  3. Segunda linea contiene las cabeceras de las columnas. 
-  4. Los valores deben dividirse por comas.
-  5. Crear un bucket en InfluxDB
-  6. Arrastrando el archivo .csv al bucket "Practica ASCENSOR ELGOIBAR" se añade la información del csv al bucket. 
+   
+3. Segunda linea contiene las cabeceras de las columnas.
+
+5. Los valores deben dividirse por comas.
+   
+7. Crear un bucket en InfluxDB
+   
+9. Arrastrando el archivo .csv al bucket "Practica ASCENSOR ELGOIBAR" se añade la información del csv al bucket. 
   
 
 https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
@@ -312,7 +323,7 @@ En el caso específico de los datos de vibraciones, el time está en segundos co
 
 
 
-        mediante el script se han convertido los segundos en fechas ISO8601, partiendo como fecha de inicio el 20 de enero de 2025 a las 15:00.
+mediante el script se han convertido los segundos en fechas ISO8601, partiendo como fecha de inicio el 20 de enero de 2025 a las 15:00.
 
 
 # Detección de anomalías
