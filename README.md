@@ -508,7 +508,8 @@ La PSD confirma que la mayor parte de la energía de la vibración se encuentra 
 La curva azul (acc_z) tiene el mayor valor en esta frecuencia, lo que indica que la vibración más intensa ocurre en la dirección vertical.acc_x y acc_y también tienen picos en la misma frecuencia, pero con menor potencia, lo que sugiere que hay vibraciones en todos los ejes, aunque menos intensas en las direcciones laterales.
 El aumento de la energía en bajas frecuencias podría deberse a pequeñas irregularidades en el motor o el montaje del ventilador.
 
-#MongoDB
+# MongoDB
+MongoDB es una base de datos NoSQL orientada a documentos que permite almacenar y gestionar datos de manera flexible. En el contexto de los ensayos realizados en ventiladores y escaleras mecánicas, MongoDB facilita el almacenamiento de los gráficos generados. Imaginemos q tenemos guardados los graficos en una base de datos de este tipo, esto permite realizar consultas específicas, como recuperar la imagen o gráfico del ensayo q hemos creado, facilitando la visualización y análisis de los resultados de los ensayos.
 
 
 
