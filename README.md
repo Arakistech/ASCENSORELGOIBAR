@@ -284,7 +284,7 @@ Los datos usados se encuentran en la carpeta Edge Impulse:
 
 ### Qucs Software
 
-
+![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Circuito%20Electrico/Circuito%20Electrico%20simple.png)
 
 ### Tableu Public
 
