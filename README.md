@@ -535,7 +535,8 @@ Como se puede observar, cada imagen tiene sus caracteristicas. Primero se define
 
 En este ejemplo, la foto que se ha consultado es el ensayo número 2 de las escaleras mecánicas (imagen arriba en su sección). De esta manera se consigue obtener lo solicitado. Otra forma sería pedir las consultas q se han realizado en dicho día, pero en este caso no es lo q interesaba, aunque podría ser algo muy útil.
 
-
+Para aprender más acerca de esta base de datos, se puede entender y practicar desde su página oficial:
+https://learn.mongodb.com/
 
 
 
