@@ -95,59 +95,58 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 
 ## 1. Crear API de Google Sheet
 
->> **Acceder a Google Cloud**: [Click aquí!](https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0)
+[ **Acceder a Google Cloud**: [Click aquí!](https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0) ]
 
-    1.01 Seleccionar APIs y servicios
-    1.02 Seleccionar HABILITAR APIS Y SERVICIOS
-    1.03 Busca Google Sheets API y selecciona
-    1.04 Selecciona Habilitar
-    1.05 Seleccionar Credenciales (después de CUOTAS Y LÍMITES DEL SISTEMA)
-    1.06 Seleccionar + CREAR CREDENCIALES
-    1.07 Seleccionar Cuenta de Servicio
-    1.08 Añadir un nombre y seleccionar Crear y continuar
-    1.09 Seleccionar Rol: Editor, continuar y Listo
-    1.10 En la opción de credenciales, mirar cuentas de servicio
-    1.11 Selecionar editar (icono lapiz)
-    1.12 Seleccionar Claves
-    1.13 Agregar clave: Crear Clave nueva
-    1.14 Seleccionar JSON y se descarga
+1.01 Seleccionar APIs y servicios
+1.02 Seleccionar HABILITAR APIS Y SERVICIOS
+1.03 Busca Google Sheets API y selecciona
+1.04 Selecciona Habilitar
+1.05 Seleccionar Credenciales (después de CUOTAS Y LÍMITES DEL SISTEMA)
+1.06 Seleccionar + CREAR CREDENCIALES
+1.07 Seleccionar Cuenta de Servicio
+1.08 Añadir un nombre y seleccionar Crear y continuar
+1.09 Seleccionar Rol: Editor, continuar y Listo
+1.10 En la opción de credenciales, mirar cuentas de servicio
+1.11 Selecionar editar (icono lapiz)
+1.12 Seleccionar Claves
+1.13 Agregar clave: Crear Clave nueva
+1.14 Seleccionar JSON y se descarga
 
 ## 2. Crear Google Sheet y compartir a correo electronico
 
-    1.15 Crear un google sheet donde quieras.
-    1.16 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 1.10)
+2.01 Crear un google sheet donde quieras.
+2.02 Compartir y dar acceso de editor al correo electronico que sale en credenciales (paso 1.10)
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/acceso%20a%20correo%20electronico.png">
-
 
 ## 3. Preparar Node-RED
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Flujo2_Node-RED.png">
 
-    1.17 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
-        > (tres lineas juntos)/administrar paleta/(al lado del nodo seleccionar instalar)
-    1.18 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
-    1.19 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
-    1.20 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
+3.01 Instalar un nodo o extensión llamado node-red-contrib-google-sheets
+> (tres lineas juntos) / administrar paleta / (al lado del nodo seleccionar instalar)
+
+3.02 Buscar bloques en el panel de nodos (a la izquierda de la pantalla)
+3.03 Copia exactamente igual que la primera fila de bloques mostrado en la imagen de arriba
+3.04 Doble click en Gsheet para acceder a su propiedad (siguiente imagen)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Editar%20Nodo%20GSheet.png">
 
-    1.21 En `creds` seleccionar el icono del lapiz
-    1.22 Pegar los datos JSON obtenido anteriormente (TODO) - (siguiente imagen)
+3.05 En `creds` seleccionar el icono del lapiz
+3.06 Pegar los datos JSON obtenido anteriormente (TODO) - (siguiente imagen)
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/EditarNodoGauth.png">
 
-    1.23 En `Method` elegir Append Row
-    1.24 En `SpreadsheetID` Pegar el ID que se encuentra en el enlace (URL) de Google Sheet
+3.07 En `Method` elegir Append Row
+3.08 En `SpreadsheetID` Pegar el ID que se encuentra en el enlace (URL) de Google Sheet
 
->> **URL del Google Sheet**: `https://docs.google.com/spreadsheets/d/     > SpreadsheetID <     /edit?gid=0#gid=0`
+[ **URL del Google Sheet**: `https://docs.google.com/spreadsheets/d/`**SpreadsheetID**`/edit?gid=0#gid=0` ]
 
-    1.25 En `Cells` Debes poner la hoja y el rango de Google Sheet.
-         El nombre de la hoja debe ser EXACTO!!
+3.09 En `Cells` Debes poner la hoja y el rango de Google Sheet.
+        El nombre de la hoja debe ser EXACTO!!
 
 ## 4. Prueba de comunicación entre Node-RED y Google Sheet
 
-    1.26 Al seleccionar en el boton que se encuentra a la izquierda del bloque de `marca tiempo`
-         de Node-RED, enviará un tiempo que se debería registrarse en en el Google Sheet
+3.10 Al seleccionar en el boton que se encuentra a la izquierda del bloque de `marca tiempo` de Node-RED, enviará un tiempo que se debería registrarse en en el Google Sheet
 
 <img src="https://github.com/Arakistech/ASCENSORELGOIBAR/blob/main/IMG/Google%20Sheet%20-%20Ascensor.png">
 
@@ -168,11 +167,10 @@ Y una APP móvil para Android que se encarga del registro de los datos.
             - FROM --> elegir la tabla en la cual se hace la tarea
             - INSERT--> insertar valores
             - DELETE --> eliminar filas
-![IMAGE NOT FOUND](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2014_26_45-SQLQuery2.sql%20-%20sqlserverprod2.database.windows.net.IoTRulesDB%20(analytics_sqlser.png )
+![IMAGE NOT FOUND](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2014_26_45-SQLQuery2.sql%20-%20sqlserverprod2.database.windows.net.IoTRulesDB%20(analytics_sqlser.png)
 
-Cargas de datos en NOSQL: 
+Cargas de datos en NOSQL:
 
-            
   Añadir datos a la base de datos de las escaleras mecanicas a influxDB (base de datos especializada en Series temporales): 
 
   Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy especifica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
@@ -189,7 +187,7 @@ Cargas de datos en NOSQL:
 
 https://jaksv.medium.com/how-to-upload-a-csv-file-to-influxdb-2-0-238b4f1015e5
 
-En el caso especifico de los datos de vibraciones, el time está en segundos con fracciones. En tiempo absoluto. Para cambiar este campo a ISO8601 (el formato requerido por IfluxDB) hemos usado el siguiente script de Phyton: 
+En el caso especifico de los datos de vibraciones, el time está en segundos con fracciones. En tiempo absoluto. Para cambiar este campo a ISO8601 (el formato requerido por IfluxDB) hemos usado el siguiente script de Phyton:
 
     from datetime import datetime, timedelta
 
