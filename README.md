@@ -508,6 +508,8 @@ La PSD confirma que la mayor parte de la energía de la vibración se encuentra 
 La curva azul (acc_z) tiene el mayor valor en esta frecuencia, lo que indica que la vibración más intensa ocurre en la dirección vertical.acc_x y acc_y también tienen picos en la misma frecuencia, pero con menor potencia, lo que sugiere que hay vibraciones en todos los ejes, aunque menos intensas en las direcciones laterales.
 El aumento de la energía en bajas frecuencias podría deberse a pequeñas irregularidades en el motor o el montaje del ventilador.
 
+#MongoDB
+
 
 
 
