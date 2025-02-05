@@ -316,6 +316,8 @@ Acierta en la cantidad de personas pero no detecta bien si es mujer u hombre. AÃ
 
 ### Qucs Software
 
+> Software: KiCAD o Qucs
+
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Circuito%20Electrico/Circuito%20Electrico%20simple.png)
 
 ### Tableu Public
