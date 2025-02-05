@@ -1,4 +1,6 @@
 # ANÁLISIS DE VIBRACIONES EN LOS ASCENSORES/ESCALERAS MECÁNICAS DE  ELGOIBAR
+
+
 Este es el Gemelo Digital de los ascensores/escaleras mecánicas Elgoibar.
 
 Se puede acceder vía en siguiente enlace web: https://imhdynamics.cloud/
