@@ -304,6 +304,8 @@ Para testear el entrenamiento ten el móvil activo y conectado. En el paso 8 ele
 2. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-25%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
 3. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Detectar%20imagenes/Screenshot%202025-02-04%20at%2016-47-33%20Fomo%20-%20Live%20classification%20-%20Edge%20Impulse%20-%20testing.5j5essko.png)
 
+Acierta en la cantidad de personas pero no detecta bien si es mujer u hombre. Aún así, han sido muy pocas imagenes usadas para el entrenamiento.
+
 # Visualización de datos
 
 ### Realidad Aumentada
