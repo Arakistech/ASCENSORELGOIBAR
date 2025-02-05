@@ -282,12 +282,19 @@ En caso de querer usar el móvil, escanear el QR. Después de que este conectado
 
 3. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/registrar%20datos.png)
 4. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Crear%20impulse.png)
+
+Dependiendo del contexto el **impulse** que se debe elegir varia.
+Seguir los pasos de las siguientes imagenes.
+
 5. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/usando%20el%20modelo%20entrenarlo.png)
 6. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/usando%20el%20modelo%20entrenarlo%202.png)
 7. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/Reentrenar.png)
 8. ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/Edge%20Impulse/ponerlo%20a%20prueba%20con%20una%20nueva.png)
 
-Los datos usados se encuentran en la carpeta Edge Impulse:
+Para testear el entrenamiento ten el móvil activo y conectado. En el paso 8 elegir el dispositivo y clicka en Start sampling. Luego agarra el movil y crea una nueva muestra. Esa muestra es la que se usa para saber si el entrenamiento es correcta.
+
+> Los datos usados se encuentran en la carpeta Edge Impulse.
+
 ## Clasificar tipos de vibraciones
 
 
