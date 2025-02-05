@@ -383,6 +383,8 @@ Sensibilidad del Sistema: Considerar la calibración de los sensores para reduci
 - Aquí se muestra una gráfica de los ascensores de Ermua donde se muestra la relación entre el tiempo de anomalías el elevador y el recuento de personas
 
 - https://public.tableau.com/app/profile/david.joel.rodriguez.saravia/viz/AnlisisAscensoresErmuaTiempo_de_anomalias_elevador_recuento_de_personas/Hoja1?publish=yes
+# Aceleraciones, vibraciones y PSD
+## Código para conseguir gráficos
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -464,6 +466,7 @@ plt.tight_layout(rect=[0, 0, 1, 0.96])
 
 plt.show()
 ```
+## Gráficos de la escalera
 ![Escalera - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%201.png)
 
 ![Escalera - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%202.png)
@@ -472,8 +475,7 @@ plt.show()
 
 ![Escalera - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Escalera%20-%20Prueba%204.png)
 
-- Interpretación de los gráficos de la escalera:
-
+## Interpretación de los gráficos de la escalera:
 1. Aceleración vs Tiempo (Gráfico Izquierdo)
 Se presentan las tres componentes de aceleración (acc_x, acc_y, acc_z) en función del tiempo.
 La señal parece bastante estable, con pequeñas variaciones alrededor de ciertos valores constantes.
@@ -490,10 +492,13 @@ Este gráfico muestra cómo la potencia de la señal está distribuida en las di
 La curva roja (acc_x) tiene más energía en las bajas frecuencias, lo cual es común en estructuras mecánicas con oscilaciones de baja frecuencia.
 La curva azul (acc_z) tiene más fluctuaciones y caída de energía a mayores frecuencias, lo que podría indicar la presencia de ruido o vibraciones de alta frecuencia menos persistentes.
 La curva verde (acc_y) sigue una tendencia intermedia, lo que sugiere que la vibración en este eje es menos intensa que en acc_z, pero sigue presente en bajas frecuencias.
-- ![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
-- ![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
-- ![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
-- ![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
+## Gráficos del ventilador
+  ![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
+  ![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
+  ![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
+  ![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
+
+## Interpretación de gráficos del ventilador
 1. Aceleración vs Tiempo (Gráfico Izquierdo)
 Se observa una oscilación muy regular en la aceleración acc_z (azul), lo que indica un movimiento periódico, característico de un ventilador en funcionamiento.
 La amplitud de acc_z es mucho mayor que la de acc_x y acc_y, lo que sugiere que la vibración más fuerte ocurre en la dirección vertical. Esto puede deberse a un desbalanceo en las aspas o el motor. También se aprecian oscilaciones en acc_x y acc_y, aunque de menor magnitud, lo que indica que hay cierta vibración en las direcciones horizontal y lateral, probablemente por las fuerzas aerodinámicas o pequeños desajustes en la estructura.
@@ -507,6 +512,7 @@ También se ve un segundo pico cerca de los 10 Hz, que puede ser un armónico, l
 La PSD confirma que la mayor parte de la energía de la vibración se encuentra en 5 Hz, reforzando que esta es la frecuencia fundamental de operación del ventilador.
 La curva azul (acc_z) tiene el mayor valor en esta frecuencia, lo que indica que la vibración más intensa ocurre en la dirección vertical.acc_x y acc_y también tienen picos en la misma frecuencia, pero con menor potencia, lo que sugiere que hay vibraciones en todos los ejes, aunque menos intensas en las direcciones laterales.
 El aumento de la energía en bajas frecuencias podría deberse a pequeñas irregularidades en el motor o el montaje del ventilador.
+
 
 # MongoDB
 MongoDB es una base de datos NoSQL orientada a documentos que permite almacenar y gestionar datos de manera flexible. En el contexto de los ensayos realizados en ventiladores y escaleras mecánicas, MongoDB facilita el almacenamiento de los gráficos generados. Imaginemos q tenemos guardados los graficos en una base de datos de este tipo, esto permite realizar consultas específicas, como recuperar la imagen o gráfico del ensayo q hemos creado, facilitando la visualización y análisis de los resultados de los ensayos.
