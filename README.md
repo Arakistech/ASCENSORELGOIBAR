@@ -211,8 +211,8 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 
 Ejemplos de lenguajes usados para la comunicacion en BBDD NOSQL: 
 
-                - Cassandra: CQL (Cassandra Query Language)
-                - MongoDB: utiliza un sistema propio de documento conocido con el nombre BSON, que es una evolución del conocido JSON. 
+        - Cassandra: CQL (Cassandra Query Language)
+        - MongoDB: utiliza un sistema propio de documento conocido con el nombre BSON, que es una evolución del conocido JSON. 
 
 
   Añadir datos a la base de datos de las escaleras mecanicas a influxDB (base de datos especializada en Series temporales):
