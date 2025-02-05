@@ -155,8 +155,24 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 2 Tipos de bases de datos: relacionales y no relacionales. 
   1. Relacionales (EJ SQL): Es necesario que los datos tengan una estructura predeterminada al crear las tablas. En caso de que los datos no cumplan los requisitos no se graban.
   2. No relacionales (EJ MongoDB): No es necesario que tengan una estructura definida. Usada cuando no esta clara la     relacion de los datos a almacenar.
- 
-  
+
+ Cargas de datos en SQL: 
+
+        1. Creación de las tablas y estructuras DDL (Data Definition Language): 
+             En primera instancia se deben crear las estructuras y las tablas que serviran de base a los registros. 
+             - CREATE --> Para crear tablas o vistas.
+             - ALTER --> Para modificar la estructura ej. cambiar o añadir una columna.
+             - DROP --> Para borrar algun objeto de la estructura.
+        2. Tareas de modificacion y consultas DML (Data Management LAnguage): 
+            - SELECT--> realizar consulta 
+            - FROM --> elegir la tabla en la cual se hace la tarea
+            - INSERT--> insertar valores
+            - DELETE --> eliminar filas
+
+
+Cargas de datos en NOSQL: 
+
+            
   Añadir datos a la base de datos de las escaleras mecanicas a influxDB (base de datos especializada en Series temporales): 
 
   Requisitos y estructura necesaria para subir .csv a InfluxDB. InfluxDB demanda una estructura y una información muy especifica para subir un archivo .csv. Por lo que las especificaciones son las siguientes:
