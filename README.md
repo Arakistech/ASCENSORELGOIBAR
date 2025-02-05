@@ -281,6 +281,11 @@ Los datos usados se encuentran en la carpeta Edge Impulse:
 
 - https://jaealkorta.github.io/Realidad_Aumentada/
 
+
+### Qucs Software
+
+
+
 ### Tableu Public
 
 - https://public.tableau.com/views/Iara_16387319222540/MODIFICADOIVAN?:showVizHome=no#1
