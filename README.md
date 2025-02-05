@@ -98,18 +98,31 @@ Y una APP móvil para Android que se encarga del registro de los datos.
 [ **Acceder a Google Cloud**: [Click aquí!](https://console.cloud.google.com/welcome?authuser=1&hl=es&inv=1&invt=Abnbrw&project=weighty-fabric-448414-r0) ]
 
 1.01 Seleccionar APIs y servicios
+
 1.02 Seleccionar HABILITAR APIS Y SERVICIOS
+
 1.03 Busca Google Sheets API y selecciona
+
 1.04 Selecciona Habilitar
+
 1.05 Seleccionar Credenciales (después de CUOTAS Y LÍMITES DEL SISTEMA)
+
 1.06 Seleccionar + CREAR CREDENCIALES
+
 1.07 Seleccionar Cuenta de Servicio
+
 1.08 Añadir un nombre y seleccionar Crear y continuar
+
 1.09 Seleccionar Rol: Editor, continuar y Listo
+
 1.10 En la opción de credenciales, mirar cuentas de servicio
+
 1.11 Selecionar editar (icono lapiz)
+
 1.12 Seleccionar Claves
+
 1.13 Agregar clave: Crear Clave nueva
+
 1.14 Seleccionar JSON y se descarga
 
 ## 2. Crear Google Sheet y compartir a correo electronico
