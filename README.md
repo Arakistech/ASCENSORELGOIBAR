@@ -540,11 +540,13 @@ Este gráfico muestra cómo la potencia de la señal está distribuida en las di
 La curva roja (acc_x) tiene más energía en las bajas frecuencias, lo cual es común en estructuras mecánicas con oscilaciones de baja frecuencia.
 La curva azul (acc_z) tiene más fluctuaciones y caída de energía a mayores frecuencias, lo que podría indicar la presencia de ruido o vibraciones de alta frecuencia menos persistentes.
 La curva verde (acc_y) sigue una tendencia intermedia, lo que sugiere que la vibración en este eje es menos intensa que en acc_z, pero sigue presente en bajas frecuencias.
+
 ## Gráficos del ventilador
-  ![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
-  ![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
-  ![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
-  ![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
+
+![Ventilador - Prueba 1](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%201.png)
+![Ventilador - Prueba 2](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%202.png)
+![Ventilador - Prueba 3](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%203.png)
+![Ventilador - Prueba 4](Datos%20vibraci%C3%B3n/Imagenes%20de%20resultados/Ventilador%20-%20Prueba%204.png)
 
 ## Interpretación de gráficos del ventilador
 1. Aceleración vs Tiempo (Gráfico Izquierdo)
@@ -567,6 +569,7 @@ MongoDB es una base de datos NoSQL orientada a documentos que permite almacenar 
 
 EJEMPLO DE CASO:
 Como anteriormente mencionado, imaginemos que tenemos los 6 gráficos guardados en una base de datos NoSQL, para poder visualizar los resultados de los ensayos cuando lo solicitemos. Para ello, habría que hacer una consulta en MongoDb, en el idioma json, de esta manera;
+
 ```json
 {
   "_id": ObjectId("65c09f8e123456789abcd001"),
@@ -577,6 +580,7 @@ Como anteriormente mencionado, imaginemos que tenemos los 6 gráficos guardados 
 }
 db.imagenes.findOne({ "equipo": "escaleras", "ensayo": 2 });
 ```
+
 Como se puede observar, cada imagen tiene sus caracteristicas. Primero se define el id de la imagen a guardar. Después, se guarda con algunas caracterisitcas particulares. Esto nos permitirá poder encontrar la foto o gráfico al solicitarlo cuando sea necesario. 
 
 En este ejemplo, la foto que se ha consultado es el ensayo número 2 de las escaleras mecánicas (imagen arriba en su sección). De esta manera se consigue obtener lo solicitado. Otra forma sería pedir las consultas q se han realizado en dicho día, pero en este caso no es lo q interesaba, aunque podría ser algo muy útil.
