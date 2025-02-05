@@ -168,7 +168,7 @@ Y una APP móvil para Android que se encarga del registro de los datos.
             - FROM --> elegir la tabla en la cual se hace la tarea
             - INSERT--> insertar valores
             - DELETE --> eliminar filas
-
+!(IMAGE NOT FOUND)[https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/2025-02-05%2014_26_45-SQLQuery2.sql%20-%20sqlserverprod2.database.windows.net.IoTRulesDB%20(analytics_sqlser.png]
 
 Cargas de datos en NOSQL: 
 
