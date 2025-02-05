@@ -280,6 +280,7 @@ Los datos usados se encuentran en la carpeta Edge Impulse:
 ### Realidad Aumentada
 
 - https://jaealkorta.github.io/Realidad_Aumentada/
+- https://aitorruizp.github.io/3D-Scalator/index.html
 
 
 ### Qucs Software
