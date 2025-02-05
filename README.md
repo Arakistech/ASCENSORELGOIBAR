@@ -57,7 +57,11 @@ Parámetros importantes
 ![alt text](https://raw.githubusercontent.com/Arakistech/ASCENSORELGOIBAR/refs/heads/main/IMG/Peak%2C%20RMS%2C%20and%20Crest%20Factor.jpg)
 
 - **Pico**: Valor máximo de la amplitud de vibración
+
+  
 - **RMS (Root Mean Square)**: Medida de la energía contenida en la vibración
+
+  
 - **Factor de Cresta**: Relación entre el valor pico y el RMS, útil para detectar impactos
 
 ### Análisis estadístico
